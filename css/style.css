@@ -35,6 +35,9 @@ footer {
 
 /* responsive mobile */
 @media (max-width: 768px) {
+  .moment-info {
+    flex-direction: column-reverse !important;
+  }
   .footer-info {
     text-align: center;
     flex-direction: column-reverse !important;
@@ -42,6 +45,8 @@ footer {
   .for-padding {
     margin-top: 50px !important;
   }
+}
+@media (max-width: 600px) {
 }
 @media (max-width: 576px) {
   .moment-info,
