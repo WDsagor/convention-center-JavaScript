@@ -32,3 +32,21 @@
 footer {
   background-color: #0b0d17;
 }
+
+/* responsive mobile */
+@media (max-width: 768px) {
+  .footer-info {
+    text-align: center;
+    flex-direction: column-reverse !important;
+  }
+  .for-padding {
+    margin-top: 50px !important;
+  }
+}
+@media (max-width: 576px) {
+  .moment-info,
+  .accordion-info,
+  .footer-info {
+    flex-direction: column-reverse !important;
+  }
+}
