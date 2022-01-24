@@ -1,0 +1,25 @@
+.moment {
+  margin-top: 100px;
+}
+.packege-info {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  border-radius: 30px;
+}
+
+.packeg-btn {
+  background-color: #ef5da84d;
+}
+.packeg-btn > a {
+  color: #3f87f5;
+}
+.pack-details:hover .packege-info {
+  transition-duration: 1s;
+  background-color: #3f87f5;
+  margin-top: -50px;
+  color: white;
+}
+.pack-details:hover .packeg-btn {
+  background-color: white;
+}
