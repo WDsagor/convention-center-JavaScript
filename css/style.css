@@ -46,8 +46,7 @@ footer {
     margin-top: 50px !important;
   }
 }
-@media (max-width: 600px) {
-}
+
 @media (max-width: 576px) {
   .moment-info,
   .accordion-info,
